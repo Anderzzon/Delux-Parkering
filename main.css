@@ -27,6 +27,10 @@ h1 {
     padding-top: 10px;
     }
 
+.contentimage {
+    width: 100%
+}
+
 /*---------Remove styling on link in header---------*/
 .header a {
     text-decoration: none;}
