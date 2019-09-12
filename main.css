@@ -31,13 +31,19 @@ h1 {
     width: 100%
 }
 
-/*---------Remove styling on link in header---------*/
 .header a {
-    text-decoration: none;}
-/*--------------------------------------------------*/
+    text-decoration: none;}  /*Remove link styling on logo*/
 
+th, td {
+    font-size: 20px;
+    padding: 10px;⁄
+    padding-left: 10px;
+    text-align: left;
+    
+}
 
-h2, p {font-family: 'Arial', sans-serif; padding: 0px 16px 0px 16px}
+h2, p, table {font-family: 'Arial', sans-serif; 
+            padding: 0px 16px 0px 16px}
 
 /*-------Menu styling-------*/
 ul.topnav {font-family: 'Open Sans', sans-serif; font-weight: 600;}
