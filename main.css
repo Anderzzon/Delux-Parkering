@@ -13,6 +13,7 @@ body {
 .content {
     min-height: calc(100vh - 90px); /*Places footer at bottom*/
     background-color: snow;
+    padding-bottom: 200px;
     }
 
 .footer {
