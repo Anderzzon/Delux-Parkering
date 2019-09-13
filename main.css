@@ -12,18 +12,17 @@ body {
 
 .content {
     min-height: calc(100vh - 90px); /*Places footer at bottom*/
-    background-color: snow;
     padding-bottom: 200px;
     }
 
 .footer {
     
-    background-color: lightgray; 
+    background-color: dimgray; 
     }
 
 h1 {
     font-family: 'Pacifico', cursive;
-    color: white;
+    color: #f1f0cf;
     margin: 0px 16px;
     padding-top: 10px;
     }
@@ -83,14 +82,15 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #800000;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
     float: right;
     margin-top: 10px;
-    
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif; font-weight: 600;
 }
 
 /* Floating column for labels: 25% width */
@@ -124,7 +124,8 @@ input[type=submit] {
 }
 
 /*-------Menu styling-------*/
-ul.topnav {font-family: 'Open Sans', sans-serif; font-weight: 600;}
+ul.topnav {font-family: 'Open Sans', sans-serif; 
+            font-weight: 600;}
 
 ul.topnav {
   list-style-type: none;
@@ -144,9 +145,9 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {background-color: #1d0d80;}
 
-ul.topnav li a.active {background-color: #4CAF50;}
+ul.topnav li a.active {background-color: #800000;}
 
 ul.topnav li.right {float: right;}
 
@@ -159,7 +160,6 @@ ul.topnav li.right {float: right;}
 /*-------------Button on starter page-------------*/
 .button {
   font-family: 'Open Sans', sans-serif; font-weight: 600;    
-  background-color: #4CAF50; /* Green */
   border: none;
   color: white;
   padding: 12px 20px;
@@ -173,9 +173,9 @@ ul.topnav li.right {float: right;}
   cursor: pointer;
 }
 .button1 {
-  background-color: #4CAF50;; 
+  background-color: #800000; 
   color: white; 
-  border: 2px solid #4CAF50;
+  border: 2px solid #800000;
 }
 
 .button1:hover {
