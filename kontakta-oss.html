@@ -8,7 +8,7 @@
         
         <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
         <link rel="stylesheet" type="text/css" href="main.css"/>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800%7CPacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800%7CPacifico%7CSaira+Stencil+One&display=swap" rel="stylesheet"/>
         <script src="https://kit.fontawesome.com/ccd2389bbe.js"></script>
         </head>
     <body>
@@ -26,10 +26,50 @@
         
 
         <div class="content">
-            <img src="startsida.jpg" width="100%">
-            <h2>Rubrik</h2>
-            <p>Text</p>
+            <img class="contentimage" src="kontakta-oss-min.jpg" alt="Kontakta Delux Parkering stor">
+            <img class="contentimagesmall" src="kontakta-oss-mobile-min.jpg" alt="Kontakta Delux Parkering liten">
+            <h2>Kontakta oss</h2>
+            <p>Fyll i kontaktformuläret nedan så svarar vi så snart som möjligt.</p>
         
+        <form>
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Namn:</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Sven" required>
+              </div>
+            </div> 
+            <div class="row">
+              <div class="col-25">
+                <label for="phone">Telefonnummer:</label>
+              </div>
+              <div class="col-75">
+                <input type="tel" id="phone" name="phonenumber" placeholder="0701234567">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="phone">E-mail:</label>
+              </div>
+              <div class="col-75">
+                <input type="email" id="mail" name="email" placeholder="exemepl@exempel.com" required>
+              </div>
+            </div>   
+            <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Meddelande" style="height:200px"></textarea>
+      </div>
+    </div>
+            <div class="row">
+              <input type="submit" value="Boka">
+            </div>
+          </form>    
+            
+            
         </div>
         <div class="footer">
         <ul class="social">

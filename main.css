@@ -27,9 +27,17 @@ h1 {
     padding-top: 10px;
     }
 
-.contentimage {
+.contentimage, .contentimagesmall {
     width: 100%
 }
+
+@media screen and (max-width: 726px) {
+    .contentimage {display: none}
+}
+@media screen and (min-width: 726px) {
+    .contentimagesmall {display: none}
+}
+
 
 .header a {
     text-decoration: none;}  /*Remove link styling on logo*/
@@ -41,10 +49,26 @@ th, td {
     text-align: left;
 }
 
-h2, p, table, form {font-family: 'Arial', sans-serif; 
+p, table, form, ul {font-family: 'Arial', sans-serif; 
             padding: 0px 16px 0px 16px;
-            line-height: 18px;
         }
+h2, h3{font-family: 'Saira Stencil One', cursive; 
+            padding: 0px 16px 0px 16px;
+        }
+
+.about li {
+    margin-left: 16px;
+}
+
+.checkmark {
+    font-size: 20px;
+    margin-right: 5px;
+    color: #1d0d80;
+}
+.usp {
+    font-size: 20px;
+    margin-left: 0
+}
 
 /*--------------map-------------------*/
 
@@ -90,6 +114,7 @@ input[type=submit] {
     float: right;
     margin-top: 10px;
     font-size: 16px;
+    -webkit-appearance: none; /* Safari */
     font-family: 'Open Sans', sans-serif; font-weight: 600;
 }
 
@@ -158,6 +183,9 @@ ul.topnav li.right {float: right;}
 }
 
 /*-------------Button on starter page-------------*/
+
+
+
 .button {
   font-family: 'Open Sans', sans-serif; font-weight: 600;    
   border: none;
@@ -202,8 +230,6 @@ ul.social li {
     color: white;
     border-radius: 50%;
 }
-
-
 
 
 /*Thanks to w3schools.com and ource ostraining.com for some of the code*/
