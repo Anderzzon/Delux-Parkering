@@ -7,7 +7,8 @@ body {
     height:100%;}
 
 .header {
-    background-color: dimgray; 
+    /*background-color: dimgray;*/
+    background-color: #800000;
         height: 10vh;}
 
 .content {
@@ -107,7 +108,7 @@ label {
 /* Style the submit button */
 input[type=submit] {
     background-color: #800000;
-    color: white;
+    color: #f1f0cf;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
@@ -164,7 +165,7 @@ ul.topnav li {float: left;}
 
 ul.topnav li a {
     display: block;
-    color: white;
+    color: #f1f0cf;
     text-align: center;
     padding: 5px 16px;
     text-decoration: none;
@@ -202,7 +203,7 @@ ul.topnav li.right {float: right;}
 }
 .button1 {
   background-color: #800000; 
-  color: white; 
+  color: #f1f0cf; 
   border: 2px solid #800000;
 }
 
