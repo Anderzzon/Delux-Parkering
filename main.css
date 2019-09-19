@@ -7,18 +7,16 @@ body {
     height:100%;}
 
 .header {
-    /*background-color: dimgray;*/
     background-color: #800000;
         height: 10vh;}
 
 .content {
     min-height: calc(100vh - 90px); /*Places footer at bottom*/
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     }
 
 .footer {
-    
-    background-color: dimgray; 
+    background-color: #1d0d80;
     }
 
 h1 {
@@ -31,14 +29,12 @@ h1 {
 .contentimage, .contentimagesmall {
     width: 100%
 }
-
-@media screen and (max-width: 726px) {
+@media screen and (max-width: 726px) { /*Image for mobiles*/
     .contentimage {display: none}
 }
-@media screen and (min-width: 726px) {
+@media screen and (min-width: 726px) { /*Image for desktop*/
     .contentimagesmall {display: none}
 }
-
 
 .header a {
     text-decoration: none;}  /*Remove link styling on logo*/
@@ -53,6 +49,7 @@ th, td {
 p, table, form, ul {font-family: 'Arial', sans-serif; 
             padding: 0px 16px 0px 16px;
         }
+
 h2, h3{font-family: 'Saira Stencil One', cursive; 
             padding: 0px 16px 0px 16px;
         }
@@ -61,19 +58,19 @@ h2, h3{font-family: 'Saira Stencil One', cursive;
     margin-left: 16px;
 }
 
-.checkmark {
+.checkmark /*Checkmark on starter page*/ { 
     font-size: 20px;
     margin-right: 5px;
     color: #1d0d80;
     text-decoration: none;
 }
-.usp {
+
+.usp /*Usps on starter page*/{
     font-size: 20px;
     margin-left: 0
 }
 
-/*--------------map-------------------*/
-
+/*--------------map on hitta-oss.html-------------------*/
 .map{
     overflow:hidden;
     padding-bottom:56.25%;
@@ -88,10 +85,9 @@ h2, h3{font-family: 'Saira Stencil One', cursive;
     width:100%;
     position:absolute;
 }
+
 /*--------------form--------------------*/
-
-/* Style inputs, select elements and textareas */
-
+/* Style inputs, select elements and textareas: */
 input[type=text], input[type=tel], input[type=email], select, textarea{
     width: 100%;
     padding: 12px;
@@ -146,7 +142,6 @@ input[type=submit] {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 10;
-      
   }
 }
 
@@ -185,9 +180,6 @@ ul.topnav li.right {float: right;}
 }
 
 /*-------------Button on starter page-------------*/
-
-
-
 .button {
   font-family: 'Open Sans', sans-serif; font-weight: 600;    
   border: none;
@@ -207,14 +199,12 @@ ul.topnav li.right {float: right;}
   color: #f1f0cf; 
   border: 2px solid #800000;
 }
-
 .button1:hover {
   background-color: white;
   color: black;
 }
 
 /*----------social links in footer-----------*/
-
 .social {
     list-style-type: none;
     margin: 0;
@@ -229,9 +219,9 @@ ul.social li {
     margin: 5px 10px;
     font-size: 40px;
     padding: 10px 10px;
-    color: white;
+    color: #f1f0cf;
     border-radius: 50%;
 }
 
 
-/*Thanks to w3schools.com and ource ostraining.com for some of the code*/
+/*Thanks to w3schools.com and ostraining.com*/
